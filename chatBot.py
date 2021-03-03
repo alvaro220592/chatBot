@@ -1,3 +1,21 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# ===================================================== #
+# ---------------------CHATBOT------------------------- #
+# ===================================================== #
+#                                                       #
+# Projeto de chat entre o usuário e a máquina, cuja     #
+# função é construir interações simples e inteligentes  #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+print(
+    
+    '=====================================================\n'
+    '---------------------CHATBOT-------------------------\n'
+    '=====================================================\n'
+)
+
+
 # O nome virá do usuário e será armazenado em letra minúscula para prevenir nomes repetidos com caixa diferente.
 nome = input('Oi, qual o seu nome?\n').lower()
 
