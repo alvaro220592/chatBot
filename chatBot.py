@@ -2,7 +2,7 @@
 nome = input('Oi, qual o seu nome?\n').lower()
 
 # aqui é iniciada a criação de um arquivo de texto(caso este ainda não exista) para escrita dos nomes.
-fileW = open('nomes.txt', 'a')
+fileW = open('nomes.txt', 'a', encoding='utf8')
 
 # atribuindo o mesmo arquivo, desta vez para leitura, à variável fileR
 fileR = open('nomes.txt') 
