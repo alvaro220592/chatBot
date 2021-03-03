@@ -17,5 +17,5 @@ else:
     fileW.write(nome + '\n') # o sistema escreverá o nome inserido pelo usuário no arquivo(a inserção é feita pelo método .write())
     print(f'Oi, {nome}! Prazer em te conhecer...') # se comporta como se estivesse conhecendo o usuário agora.
 
-# Após todo este processo, a conexão ao arquivo de texto é fechada.
+# A conexão com o arquivo é fechada fora da condição acima para que seu comando seja feito apenas 1 vez.
 fileW.close()
